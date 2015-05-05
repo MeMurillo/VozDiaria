@@ -1,0 +1,54 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	    
+	    <include
+	        android:id="@+id/header"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        layout="@layout/base" />
+	    
+	    <LinearLayout
+	        android:id="@+id/contenido_layout"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical" 
+	        android:padding="5dp"
+	        android:background="@android:color/white">
+	        
+	        <ImageButton 
+	        	android:id="@+id/botonLogoDiario"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="wrap_content"
+		        android:background="@android:color/transparent"
+		        android:layout_marginBottom="10dp"/>
+    
+		    <ListView  
+		        android:id="@+id/listaNoticias"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="wrap_content"
+		        android:background="@android:color/transparent"
+		        android:listSelector="@drawable/listview_selector"/>
+	     
+	     </LinearLayout>
+     </LinearLayout>
+     
+	<ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="@drawable/borde_menu"/>
+    
+</android.support.v4.widget.DrawerLayout>

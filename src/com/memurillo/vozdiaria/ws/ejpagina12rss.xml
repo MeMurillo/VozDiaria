@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+
+<title>Página/12</title>
+<link>http://www.pagina12.com.ar/diario/principal/index.html</link>
+<description>Página/12</description>	
+<image>
+	<url>http://www.pagina12.com.ar/commons/imgs/rss/rss_logo-p12.gif</url>
+	<title>Página/12</title>
+	<link>http://www.pagina12.com.ar/diario/principal/index.html</link>
+	<description>Logo Página/12</description>
+	<width>144</width>
+	<height>33</height>
+</image>
+<ttl>1440</ttl>
+
+<atom:link href="http://www.pagina12.com.ar/diario/rss/principal.xml" rel="self" type="application/rss+xml" />	
+<language>es-ar</language>
+<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+<lastBuildDate>Sat, 02 May 2015 21:15:16 -0300</lastBuildDate>
+<managingEditor>infop12@pagina12.com.ar (Editor)</managingEditor>
+<webMaster>webmaster@pagina12.com.ar (Webmaster)</webMaster>
+<copyright><![CDATA[Copyright 2000-2015 www.pagina12.com.ar | Rep&uacute;blica Argentina | Todos los Derechos Reservados]]></copyright>
+
+<item>
+	<title> Viaje a la profundidad de la selva misionera</title>
+	<link>http://www.pagina12.com.ar/diario/economia/2-271784-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Economía</em><br />
+															El Registro Nacional de Trabajadores y Empleadores Agrarios (Renatea) denunci&oacute; penalmente el a&ntilde;o pasado 746 casos de trata de personas con fines de explotaci&oacute;n laboral en el sector rural. C&oacute;mo viven las v&iacute;ctimas de ese infierno.
+									</p>
+						<ul>
+						<li><a href="http://www.pagina12.com.ar/diario/economia/subnotas/271784-72562-2015-05-02.html" title="">El mapa de la explotaci&oacute;n laboral</a></li>
+					</ul>
+				]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/economia/2-271784-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Trabajo sucio</title>
+	<link>http://www.pagina12.com.ar/diario/economia/2-271785-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Economía</em><br />
+															   Por cada punto que baja la informalidad laboral, la recaudaci&oacute;n de la Anses crece 5000 millones de pesos al a&ntilde;o, seg&uacute;n una estimaci&oacute;n oficial a la que accedi&oacute; P&aacute;gina/12. Como es visible, a m&aacute;s trabajadores formales, m&aacute;s aportes y contribuciones para el Estado. Redoblar esfuerzos para disminuir el trabajo en negro es uno de los caminos...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/economia/2-271785-2015-05-02.html</guid>
+</item>
+<item>
+	<title>&#34;Cuidemos lo logrado&#34;</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271786-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															No hubo acto oficial, pero la Presidenta escribi&oacute; en Twitter a prop&oacute;sito del D&iacute;a del Trabajador. Habl&oacute; de cuidar los avances y profundizar la lucha contra el trabajo no registrado.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271786-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Sin más ajustes</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271787-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    Sin un acto oficial por el 1&ordm; de Mayo, el ministro de Trabajo, Carlos Tomada, particip&oacute; junto al presidente de la C&aacute;mara de Diputados y precandidato a gobernador bonaerense, Juli&aacute;n Dom&iacute;nguez, de un acto de la Corriente Pol&iacute;tico Sindical Federal, en Z&aacute;rate, ante m&aacute;s de 4 mil trabajadores. &quot;Este 1&ordm; de mayo nos encuentra...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271787-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Del piquete a las paritarias</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271788-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    Desde su tr&aacute;gico origen como fecha emblem&aacute;tica el 1&deg; de Mayo es, a escala mundial, una jornada de lucha por el mejoramiento de las condiciones de vida de los trabajadores y sus familias.    A trav&eacute;s de un camino zigzagueante jalonado por conquistas y p&eacute;rdidas, a&uacute;n por gigantescas derrotas, se ha forjado una gran ense&ntilde;anza v&aacute;lida para...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271788-2015-05-02.html</guid>
+</item>
+<item>
+	<title>&#34;No hay que comprar cantos de sirena&#34;</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271804-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															La central de Yasky reafirm&oacute; su acompa&ntilde;amiento a las pol&iacute;ticas del gobierno de Cristina Kirchner en un acto junto a la Confederaci&oacute;n de Cooperativas (CNCT). Estuvieron Tomada, Sabbatella y De Pedro.
+									</p>
+						<ul>
+						<li><a href="http://www.pagina12.com.ar/diario/elpais/subnotas/271804-72564-2015-05-02.html" title="">El recuerdo de Kirchner</a></li>
+					</ul>
+				]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271804-2015-05-02.html</guid>
+</item>
+<item>
+	<title>La izquierda se movilizó a la Plaza de Mayo</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271805-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    &quot;La mitad de la clase trabajadora son mujeres, invisibilizadas, como dice Andrea D&rsquo;Atri, con peores salarios y menos derechos, sometidas a la explotaci&oacute;n y tambi&eacute;n a la opresi&oacute;n de g&eacute;nero&quot;, dijo la candidata a jefa de Gobierno Myriam Bregman (PTS) en un masivo acto que realiz&oacute; el Frente de Izquierda y de los Trabajadores en Plaza de Mayo...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271805-2015-05-02.html</guid>
+</item>
+<item>
+	<title> Quiere probar por la vereda del medio</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271828-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															Con un acto en V&eacute;lez, Massa ratific&oacute; su intenci&oacute;n de postularse a la presidencia. Dijo que buscar&aacute; transitar &quot;la ancha avenida del medio, ni continuidad  ni pasado&quot;, en un discurso breve, repleto de consignas y promesas.
+									</p>
+						<ul>
+						<li><a href="http://www.pagina12.com.ar/diario/elpais/subnotas/271828-72566-2015-05-02.html" title="">Massitas</a></li>
+						<li><a href="http://www.pagina12.com.ar/diario/elpais/subnotas/271828-72567-2015-05-02.html" title="">Las quejas de Rodr&iacute;guez Sa&aacute;</a></li>
+						<li><a href="http://www.pagina12.com.ar/diario/elpais/subnotas/271828-72568-2015-05-02.html" title="">Apoyo de radicales massistas</a></li>
+					</ul>
+				]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271828-2015-05-02.html</guid>
+</item>
+<item>
+	<title>El candidato</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271829-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    El voto no tiene un solo dios, una sola explicaci&oacute;n. Hay varias y, seg&uacute;n el candidato, algunas de ellas gravitan m&aacute;s que las otras. Se puede decir que en el voto porte&ntilde;o confluyen tres universos argumentales: el de los contenidos culturales y simb&oacute;licos, el de la gesti&oacute;n y la problem&aacute;tica local y los temas de proyecci&oacute;n nacional....
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271829-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Aníbal, uno nuevo en la lista</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271811-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															En los pr&oacute;ximos d&iacute;as, An&iacute;bal Fern&aacute;ndez anunciar&aacute; que abandona la competencia por la presidencia y se sumar&aacute; a la decena de precandidatos del Frente para la Victoria para gobernador de la provincia de Buenos Aires.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271811-2015-05-02.html</guid>
+</item>
+<item>
+	<title>El FpV a la cabeza en provincia</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271812-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    El Frente para la Victoria es amplio favorito en las elecciones primarias a gobernador de la provincia de Buenos Aires. As&iacute; surge de una encuesta realizada por la consultora Analog&iacute;as, en la que, medidos por fuerza pol&iacute;tica, el kirchnerismo cosechar&iacute;a el 41,4 por ciento de los votos, seguido por la alianza PRO, UCR, CC con el 27,4, y m&aacute;s atr&aacute;s, el...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271812-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Un relanzamiento con vice incluido</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271808-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															El sciolista Marangoni, el radical Santoro y la actriz Alejandra Dar&iacute;n son algunos de los nombres en danza para acompa&ntilde;ar en la boleta al titular de Aerol&iacute;neas Argentinas. Ya hubo conversaciones con los otros precandidatos. La &uacute;ltima palabra la tendr&aacute; la Presidenta.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271808-2015-05-02.html</guid>
+</item>
+<item>
+	<title>&#34;El pueblo va a elegir la continuidad&#34;</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271809-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    &quot;La Argentina que vivimos hoy ha comenzado a revertir las injusticias&quot;, dijo el secretario general de la Presidencia, Eduardo &quot;Wado&quot; De Pedro, en una entrevista al diario espa&ntilde;ol El Pa&iacute;s, que public&oacute; dos art&iacute;culos sobre la pol&iacute;tica de derechos humanos en la Argentina y la llegada de hijos de desaparecidos durante la &uacute;ltima...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271809-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Scioli llevó su campaña a Formosa</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271806-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															El mandatario bonaerense particip&oacute; de un acto por el D&iacute;a del Trabajador y elogi&oacute; a la Presidenta: &quot;Es una gran trabajadora&quot;.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271806-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Bonfatti se justifica</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271807-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    El gobernador de Santa Fe, Antonio Bonfatti, afirm&oacute; ayer que &quot;no puede quedar en dudas&quot; la transparencia de las recientes primarias provinciales porque dijo que &quot;est&aacute; en juego la honorabilidad de un gobierno y la institucionalidad democr&aacute;tica&quot; y prometi&oacute; &quot;subsanar&quot; los errores para las generales del 14 de junio.    Al inaugurar...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271807-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Lousteau confirmó a su lilito</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271810-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    &quot;Para m&iacute; es un enorme orgullo decir que Fernando S&aacute;nchez va a ser nuestro candidato a vicejefe de Gobierno&quot;, asegur&oacute; Mart&iacute;n Lousteau, al confirmar que el diputado de la Coalici&oacute;n C&iacute;vica ser&aacute; su compa&ntilde;ero de f&oacute;rmula de cara a las elecciones generales del 5 de julio. El economista se&ntilde;al&oacute;, en cambio, que...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271810-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Una para la interna judicial</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271823-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															Stornelli, uno de los convocantes a la marcha del 18F, busc&oacute; diferenciarse de su colega, el fiscal De Luca, y resolvi&oacute; dar curso a la denuncia realizada por el abogado Labak&eacute; contra dirigentes de la DAIA y la AMIA.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271823-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Cerró la junta médica</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271824-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    La junta m&eacute;dica convocada por la fiscal Viviana Fein, en la causa que investiga la muerte del ex titular de la unidad especial UFI AMIA Alberto Nisman, termin&oacute; de analizar toda la documentaci&oacute;n relacionada con el caso y el martes comenzar&aacute; a debatir para acercar posiciones sobre los puntos que generaron mayores diferencias entre los peritos oficiales y los de...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271824-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Falleció Hebe Pavello</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271827-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    La Madre de Plaza de Mayo Hebe Pavello de Mascia falleci&oacute; ayer a la ma&ntilde;ana, inform&oacute; la presidenta de la Asociaci&oacute;n Madres de Plaza de Mayo, Hebe de Bonafini, a trav&eacute;s de un comunicado en el que la despidi&oacute; &quot;hasta cada d&iacute;a, hasta cada jueves, como siempre&quot;, en nombre de todas las y los integrantes de la organizaci&oacute;n....
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271827-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Los diferentes usos del dólar ahorro</title>
+	<link>http://www.pagina12.com.ar/diario/economia/2-271789-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Economía</em><br />
+															La compra de divisas en el mercado legal contribuy&oacute; para mantener bajo control el d&oacute;lar negro, que subi&oacute; apenas ocho centavos en abril y qued&oacute; en 12,70 pesos, muy por debajo de los 16 pesos a los que lleg&oacute; a cotizar a fines de septiembre del a&ntilde;o pasado.
+									</p>
+						<ul>
+						<li><a href="http://www.pagina12.com.ar/diario/economia/subnotas/271789-72563-2015-05-02.html" title="">Directores del Central</a></li>
+					</ul>
+				]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/economia/2-271789-2015-05-02.html</guid>
+</item>
+<item>
+	<title>&#34;Están siendo demasiado optimistas&#34;</title>
+	<link>http://www.pagina12.com.ar/diario/economia/2-271790-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Economía</em><br />
+															    &quot;Ahora el mercado piensa que, no importa qui&eacute;n venga, la pr&oacute;xima administraci&oacute;n que asuma en la Argentina resolver&aacute; el problema de la deuda. Est&aacute;n siendo demasiado optimistas&quot;, se&ntilde;al&oacute; Jay Newman, representante del fondo buitre Elliott Management, uno de los litigantes contra el pa&iacute;s en el juzgado de Thomas Griesa. El...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/economia/2-271790-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Un economista comprometido</title>
+	<link>http://www.pagina12.com.ar/diario/economia/2-271781-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Economía</em><br />
+															El ex subsecretario de Comercio Exterior, fallecido en Montevideo en diciembre de 2011, fue homenajeado en la Feria del Libro. &quot;Con Iv&aacute;n compartimos muchos sue&ntilde;os y proyectos. Era un militante con enormes cualidades&quot;, asegur&oacute; Recalde.
+									</p>
+						<ul>
+						<li><a href="http://www.pagina12.com.ar/diario/economia/subnotas/271781-72561-2015-05-02.html" title="">Manual de zonceras</a></li>
+					</ul>
+				]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/economia/2-271781-2015-05-02.html</guid>
+</item>
+<item>
+	<title>La construcción va entrando en calor</title>
+	<link>http://www.pagina12.com.ar/diario/economia/2-271779-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Economía</em><br />
+															La mejora estuvo impulsada por las obras de infraestructura, las construcciones petroleras y la construcci&oacute;n de viviendas. En cambio, la superficie autorizada para edificaci&oacute;n de obras privadas cay&oacute; 1,8 por ciento en el a&ntilde;o.
+									</p>
+						<ul>
+						<li><a href="http://www.pagina12.com.ar/diario/economia/subnotas/271779-72560-2015-05-02.html" title="">La cosecha de soja</a></li>
+					</ul>
+				]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/economia/2-271779-2015-05-02.html</guid>
+</item>
+<item>
+	<title>De la mano de los ferrocarriles</title>
+	<link>http://www.pagina12.com.ar/diario/economia/2-271780-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Economía</em><br />
+															    El consumo de servicios p&uacute;blicos aument&oacute; 3,4 por ciento en marzo respecto del mismo mes del a&ntilde;o pasado. As&iacute; lo inform&oacute; el Indec. El incremento de la demanda de energ&iacute;a el&eacute;ctrica, la reactivaci&oacute;n del servicio de ferrocarril urbano y la telefon&iacute;a celular impulsaron el sector. En el primer trimestre se registr&oacute; una...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/economia/2-271780-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Taxis porteños con otra suba</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271816-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															El gobierno porte&ntilde;o fij&oacute; el aumento del 18 por ciento para la tarifa diurna y del 20 para la nocturna. En el primer caso, la bajada de bandera pas&oacute; a costar 16,90 pesos y cada ficha, 1,69. El aumento anterior, en agosto pasado, fue del 28 por ciento.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271816-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Haciendo lugar para el ensanche</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271817-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															    El tr&aacute;nsito por la traza central de la General Paz est&aacute; interrumpido desde ayer a las 6 de la ma&ntilde;ana y continuar&aacute; cerrado a la circulaci&oacute;n hasta la medianoche de hoy, entre las avenidas Lope de Vega y Beir&oacute;, como tambi&eacute;n los puentes de la avenida Beir&oacute; y la calle Bruselas. All&iacute; el panorama presenta un paisaje at&iacute;pico:...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271817-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Una filmoteca para el debate en el aula</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271821-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															El Ministerio de Educaci&oacute;n entregar&aacute; en las nueve mil escuelas secundarias estatales del pa&iacute;s una filmoteca de 36 t&iacute;tulos seleccionados para fomentar el debate en el aula y los hogares. La cinemateca incluye propuestas de actividades para cada una de las pel&iacute;culas.
+									</p>
+						<ul>
+						<li><a href="http://www.pagina12.com.ar/diario/sociedad/subnotas/271821-72565-2015-05-02.html" title="">Escuela cerrada en la ciudad</a></li>
+					</ul>
+				]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271821-2015-05-02.html</guid>
+</item>
+<item>
+	<title>El suelo que pisó José de San Martín</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271822-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															    Un grupo de arque&oacute;logos descubri&oacute; el piso original de la casa en la que vivi&oacute; el general Jos&eacute; de San Mart&iacute;n en la ciudad de Mendoza entre 1814 y 1817, cuando preparaba su campa&ntilde;a a Chile, tras una excavaci&oacute;n en una vivienda ubicada en la calle Corrientes de la capital provincial.    &quot;Ha sido un hallazgo positivo en relaci&oacute;n...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271822-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Embargo multimillonario </title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271797-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															El abogado Carlos Salvatore, su mujer, su suegro, su hija y otros dos imputados fueron procesados por la Justicia federal en la causa que investiga el lavado de activos provenientes del narcotr&aacute;fico. La banda habr&iacute;a operado desde 2005.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271797-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Del disfraz fallido a la fuga</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271798-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															    Un adolescente de 15 a&ntilde;os, que la semana pasada fue detenido cuando asisti&oacute; al entierro de su abuela disfrazado de sepulturero, a sabiendas de que la polic&iacute;a lo buscaba por un asesinato cometido en febrero, escap&oacute; mientras era trasladado a un instituto de m&aacute;xima seguridad. El joven estaba a disposici&oacute;n del Fuero Pena de Responsabilidad Juvenil del...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271798-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Volcán despierto, pobladores evacuados</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271777-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															Tras un &quot;tercer pulso eruptivo&quot; del macizo, en Chile fueron evacuadas m&aacute;s de 6500 personas y se reforz&oacute; la zona de exclusi&oacute;n en torno del volc&aacute;n. En la Patagonia argentina se intensificaron los mecanismos de alerta ante la posible lluvia de cenizas.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271777-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Las consecuencias del terremoto</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271778-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															    En Nepal, dos personas fueron rescatadas de entre las ruinas dejadas por el sismo registrado el s&aacute;bado pasado y que, de acuerdo con el &uacute;ltimo balance oficial, provoc&oacute; al menos 6204 muertos y 13.932 heridos. Ambos sobrevivientes, un adolescente de 15 a&ntilde;os y una joven cuya edad a&uacute;n no fue establecida, estaban ilesos tras haber permanecido enterrados cinco...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271778-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Un día de marchas y de palos</title>
+	<link>http://www.pagina12.com.ar/diario/elmundo/4-271792-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El mundo</em><br />
+															El 1&deg; de Mayo fue festejado en Espa&ntilde;a con repudios al ajuste; en Atenas, con apoyo al gobierno, y en Italia, con solidaridad a los inmigrantes. En Estambul se enfrentaron al gobierno y en Weimar, a los nazis.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elmundo/4-271792-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Dilma contraataca</title>
+	<link>http://www.pagina12.com.ar/diario/elmundo/4-271793-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El mundo</em><br />
+															Los festejos en Brasil tuvieron un tono de defensa del gobierno, con fuertes ataques a una nueva ley del trabajo. Lula estuvo en San Pablo, la marcha m&aacute;s masiva.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elmundo/4-271793-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Ponerle el pecho a Le Pen</title>
+	<link>http://www.pagina12.com.ar/diario/elmundo/4-271794-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El mundo</em><br />
+															    El acto de Marine Le Pen es una tradici&oacute;n que arranc&oacute; su padre hace muchos a&ntilde;os: el 1&deg; de mayo en la plaza de la Opera. Pero esta vez, cuando estaba hablando, se abri&oacute; el balc&oacute;n del hotel de enfrente y se pudo ver &ndash;y escuchar&ndash; a las tres militantes del grupo Femen, con la frase &quot;Le Pen Top Fascist&quot; pintada en el pecho. Femen,...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elmundo/4-271794-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Duros disturbios por la expo en Milán</title>
+	<link>http://www.pagina12.com.ar/diario/elmundo/4-271795-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El mundo</em><br />
+															    Manifestantes contrarios a la Exposici&oacute;n Universal Mil&aacute;n 2015, que comenz&oacute; ayer, causaron desmanes en el centro y tuvieron violentos enfrentamientos con la polic&iacute;a. Apenas horas despu&eacute;s de que el primer ministro italiano Matteo Renzi inaugurara la muestra que se extender&aacute; hasta el 31 de octubre, grupos de manifestantes contrarios a la...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elmundo/4-271795-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Seis policías acusados en Baltimore</title>
+	<link>http://www.pagina12.com.ar/diario/elmundo/4-271775-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El mundo</em><br />
+															Tras una semana de violentas protestas, aparece la sorpresa de que los seis polic&iacute;as que detuvieron y trasladaron al muerto son acusados de asesinato y falso arresto.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elmundo/4-271775-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Una ciudad en la historia de nuestra Independencia</title>
+	<link>http://www.pagina12.com.ar/diario/elmundo/4-271776-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El mundo</em><br />
+															    La muerte a manos de la barbarie policial de un ciudadano estadounidense afrodescendiente instal&oacute; de manera destacada en los medios de difusi&oacute;n de casi todo el mundo a la ciudad de Baltimore. Esta ciudad tiene una gran y muy poco conocida importancia en el proceso independentista de Hispanoam&eacute;rica a pesar de que el cuarto presidente estadounidense, James Madison,...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elmundo/4-271776-2015-05-02.html</guid>
+</item>
+<item>
+	<title>La ONU dice que no fue</title>
+	<link>http://www.pagina12.com.ar/diario/elmundo/4-271774-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El mundo</em><br />
+															    Las Naciones Unidas negaron ayer haber intentado ocultar supuestos abusos sexuales de Cascos Azules franceses a ni&ntilde;os en la Rep&uacute;blica Centroafricana, llamando a la tolerancia cero contra estos cr&iacute;menes, mientras la Justicia francesa contin&uacute;a su investigaci&oacute;n sobre tropas de ese origen. &quot;Toda insinuaci&oacute;n de que Zeid Ra&rsquo;as al Husein, el...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elmundo/4-271774-2015-05-02.html</guid>
+</item>
+<item>
+	<title>&#34;Estos meses fueron brillantes&#34;</title>
+	<link>http://www.pagina12.com.ar/diario/deportes/8-271772-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Deportes</em><br />
+															En este di&aacute;logo con P&aacute;gina/12, el DT del Globo que la semana pasada le arrebat&oacute; la Supercopa Argentina a River repasa los logros de sus dirigidos y remarca el hecho de haber conseguido cuatro de los cinco objetivos que les propuso.
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/deportes/8-271772-2015-05-02.html</guid>
+</item>
+<item>
+	<title>El Superclásico entró en la recta final</title>
+	<link>http://www.pagina12.com.ar/diario/deportes/8-271802-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Deportes</em><br />
+															     El Vasco se la juega con Cubas     Boca ya tiene el equipo confirmado para enfrentar ma&ntilde;ana a River, en el primero de los tres Supercl&aacute;sicos que se jugar&aacute;n en mayo. Pese a la intenci&oacute;n del t&eacute;cnico Rodolfo Arruabarrena de mantener el enigma, Andr&eacute;s Cubas ser&aacute; el mediocampista central titular y Fernando Gago estar&aacute; entre los...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/deportes/8-271802-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Boca, la barra y su victimización</title>
+	<link>http://www.pagina12.com.ar/diario/deportes/8-271803-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Deportes</em><br />
+															    La centralidad de las barras bravas en el f&uacute;tbol dom&eacute;stico es la centralidad del poder. Se les dio de comer durante d&eacute;cadas, vieron crecer sus negocios y ahora se hacen un banquete. Les sobran contactos pol&iacute;ticos en el gobierno nacional y la oposici&oacute;n, recursos econ&oacute;micos y adem&aacute;s, les sobran estrategias de comunicaci&oacute;n. Son los...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/deportes/8-271803-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Son caros, pero los mejores</title>
+	<link>http://www.pagina12.com.ar/diario/deportes/8-271771-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Deportes</em><br />
+															El combate, promocionado como &quot;la pelea del siglo&quot;, tendr&aacute; en juego el t&iacute;tulo welter del Consejo, la Asociaci&oacute;n y la Organizaci&oacute;n. Las bolsas de ambos pugilistas juntas alcanzan la escalofriante suma de 300 millones de d&oacute;lares. Se ver&aacute; en todo el mundo. Aqu&iacute;, por la TV P&uacute;blica.
+									</p>
+						<ul>
+						<li><a href="http://www.pagina12.com.ar/diario/deportes/subnotas/271771-72558-2015-05-02.html" title="">Una m&aacute;quina de hacer dinero</a></li>
+						<li><a href="http://www.pagina12.com.ar/diario/deportes/subnotas/271771-72559-2015-05-02.html" title="">Mucho m&aacute;s que un boxeador</a></li>
+					</ul>
+				]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/deportes/8-271771-2015-05-02.html</guid>
+</item>
+<item>
+	<title>El candidato y la esclavitud</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271813-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    El gobernador de Salta y candidato a la reelecci&oacute;n, Juan Manuel Urtubey, cuestion&oacute; al postulante a vicegobernador opositor Alfredo Olmedo, al se&ntilde;alar durante un acto por el D&iacute;a del Trabajador que &quot;hay un candidato acusado&quot; de tener empleados en condiciones de &quot;esclavitud&quot;. Consider&oacute; que el escenario pol&iacute;tico &quot;est&aacute;...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271813-2015-05-02.html</guid>
+</item>
+<item>
+	<title>El control a los talleres</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271814-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    El legislador y precandidato presidencial del Frente para la Victoria, Jorge Taiana, consider&oacute; &quot;incre&iacute;ble&quot; que en la Ciudad de Buenos Aires no se haga un control sobre los talleres clandestinos. &quot;La trata de personas es la manifestaci&oacute;n m&aacute;s horrible y m&aacute;s descarnada de la informalidad laboral. Es incre&iacute;ble que los encargados de...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271814-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Bautismo de la Fuerza Aérea</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271815-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    El ministro de Defensa y precandidato a presidente del Frente para la Victoria, Agust&iacute;n Rossi, encabez&oacute; ayer la ceremonia de conmemoraci&oacute;n del 33&ordm; aniversario del bautismo de fuego de la Fuerza A&eacute;rea Argentina, en la I Brigada A&eacute;rea El Palomar. &quot;La causa de Malvinas es del conjunto del pueblo argentino, que en cada uno de los rincones de la...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271815-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Rechazaron la probation</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271825-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    El Tribunal Oral Federal de Jujuy resolvi&oacute; no hacer lugar al pedido de probation que hab&iacute;an solicitado los abogados de la dirigente juje&ntilde;a de la Agrupaci&oacute;n T&uacute;pac Amaru Milagro Sala, en el marco de una causa que le inici&oacute; el senador radical Gerardo Morales por un escrache que sufri&oacute; en 2009. Milagro Sala hab&iacute;a ofrecido al tribunal...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271825-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Boudou viajó a México</title>
+	<link>http://www.pagina12.com.ar/diario/elpais/1-271826-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El país</em><br />
+															    El vicepresidente de la Naci&oacute;n, Amado Boudou, sostuvo que &quot;el ajuste fiscal que propugna un Estado m&iacute;nimo constituy&oacute; un estrepitoso fracaso&quot;. El funcionario hizo declaraciones en el marco de una visita oficial a M&eacute;xico, donde el Senado de ese pa&iacute;s lo convoc&oacute; para disertar en una conferencia sobre la Semana de la Seguridad Social....
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elpais/1-271826-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Invierten en juguetes</title>
+	<link>http://www.pagina12.com.ar/diario/economia/2-271782-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Economía</em><br />
+															    &quot;El sector del juguete encontr&oacute; en el dise&ntilde;o y la innovaci&oacute;n la clave para dar el salto cualitativo y conseguir reconocimiento internacional&quot;, se&ntilde;al&oacute; la ministra de Industria, D&eacute;bora Giorgi. La cartera que conduce Giorgi otorg&oacute; a diez prototipos industriales con proyecci&oacute;n en el mercado financiamiento por 250 mil pesos (a...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/economia/2-271782-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Desestimaron una denuncia</title>
+	<link>http://www.pagina12.com.ar/diario/economia/2-271783-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Economía</em><br />
+															    El juez federal Juli&aacute;n Ercolini desestim&oacute; una denuncia penal contra el ministro de Econom&iacute;a, Axel Kicillof, por presuntas irregularidades en la negociaci&oacute;n de la deuda con el Club de Par&iacute;s. El magistrado hizo lugar al dictamen del fiscal federal Leonel G&oacute;mez Barbella, que solicit&oacute; desestimar la denuncia presentada en junio del a&ntilde;o...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/economia/2-271783-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Vínculos del financista</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271799-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															    Un testigo asegur&oacute; que el financista desaparecido Hugo D&iacute;az, cuyo paradero se desconoce desde el 9 de marzo, ten&iacute;a deudas que eran reclamadas por barrabravas de Boca Juniors. De acuerdo con fuentes judiciales, Diego Xavier Guastini, contador de D&iacute;az, habr&iacute;a asegurado que el financista &quot;habr&iacute;a mantenido inconvenientes de &iacute;ndole...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271799-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Policías acusados</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271800-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															    Un automovilista acus&oacute; a seis polic&iacute;as de robarle 100.000 pesos cuando lo demoraron en un control vehicular, en Rosario. De acuerdo con la denuncia, efectivos de la Patrulla de Intervenci&oacute;n Urbana (PIU) llevaron a los tres ocupantes de un auto a la comisar&iacute;a 18&ordf; por averiguaci&oacute;n de antecedentes, y aprovecharon esa demora para proceder al...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271800-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Una pileta de pastillitas</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271801-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															    En Retiro, la AFIP secuestr&oacute; m&aacute;s de 24.000 pastillas de &eacute;xtasis escondidas dentro de una pileta inflable que lleg&oacute; por encomienda al Centro Postal Internacional, y dos mujeres de nacionalidad dominicana que pretend&iacute;an retirar el env&iacute;o fueron detenidas. Fuentes de la AFIP informaron que el descubrimiento sobrevino durante un control de rutina con...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271801-2015-05-02.html</guid>
+</item>
+<item>
+	<title>La marcha de la marihuana</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271818-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															    Hoy se realizar&aacute;, en m&aacute;s de 20 ciudades del pa&iacute;s, la Marcha Mundial de la Marihuana, un evento que en la Argentina tendr&aacute; como consigna central el pedido de que cesen las detenciones por consumo y por autocultivo. En el pa&iacute;s, una persona por hora es detenida por consumo personal. &quot;Esto tiene un enorme impacto porque, en principio, nadie va a...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271818-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Molina en la OEA</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271819-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															    El titular de la Sedronar, Juan Carlos Molina, expres&oacute; su preocupaci&oacute;n por &quot;la criminalizaci&oacute;n del pobre, de las mujeres, del consumidor. Los grandes traficantes no suelen estar presos, y cuando lo est&aacute;n, es en condiciones de lujo&quot;. Molina habl&oacute; en la 57&ordf; sesi&oacute;n de la Comisi&oacute;n Interamericana para el Control del Abuso de...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271819-2015-05-02.html</guid>
+</item>
+<item>
+	<title>La odisea de una turista</title>
+	<link>http://www.pagina12.com.ar/diario/sociedad/3-271820-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Sociedad</em><br />
+															    Una turista argentina que fue bajada de un crucero en medio del Caribe qued&oacute; internada en estado grave en Jamaica y ahora finalmente las empresas OSDE y Assist Card accedieron, luego de una intervenci&oacute;n del Ministerio de Salud, a realizar el traslado de regreso a la Argentina. Ana Mar&iacute;a Arroyos viaj&oacute; de vacaciones desde Quilmes a Miami, donde abord&oacute; un...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/sociedad/3-271820-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Batalla con narcos</title>
+	<link>http://www.pagina12.com.ar/diario/elmundo/4-271796-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>El mundo</em><br />
+															    Siete personas murieron por los &quot;narcobloqueos&quot; efectuados en casi treinta puntos del estado mexicano de Jalisco, tras el arresto de un l&iacute;der de una banda criminal de la zona. Los atacantes le dispararon a un helic&oacute;ptero del ej&eacute;rcito que se estrell&oacute; y mat&oacute; a sus seis tripulantes. El presidente mexicano, Enrique Pe&ntilde;a Nieto, expres&oacute;...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/elmundo/4-271796-2015-05-02.html</guid>
+</item>
+<item>
+	<title>Los partidos de hoy</title>
+	<link>http://www.pagina12.com.ar/diario/deportes/8-271773-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Deportes</em><br />
+															     Primera Divisi&oacute;n      OLIMPO : Champagne; Villanueva, Furios, Sills, Quiroga; Amoroso, Cobo, Blanco, Acosta; Porcari; Klusener.      DT : Diego Osella.     ESTUDIANTES : Navarro; Aguirregaray o Rosales, Dom&iacute;nguez, Schunke, Pereira; Auzqui, Mart&iacute;nez, Gil Romero, S&aacute;nchez Mi&ntilde;o; Cerutti, Carrillo.     DT : Gabriel Milito.     Estadio : Olimpo....
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/deportes/8-271773-2015-05-02.html</guid>
+</item>
+<item>
+	<title>El Mediterráneo</title>
+	<link>http://www.pagina12.com.ar/diario/contratapa/13-271791-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Contratapa</em><br />
+															    Ya es casi una frase hecha decir que el Mediterr&aacute;neo se ha convertido en una fosa com&uacute;n. Aquel Mediterr&aacute;neo al que le cantaba Serrat se fue volviendo en los &uacute;ltimos a&ntilde;os una fosa en cuyo fondo yacen miles de hombres, mujeres y ni&ntilde;os que no tienen nombres. No se saben los nombres de los ahogados. Son inmigrantes ilegales, gente que es castigada...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/contratapa/13-271791-2015-05-02.html</guid>
+</item>
+<item>
+	<title>CRITICA</title>
+	<link>http://www.pagina12.com.ar/diario/pirulo/30-271830-2015-05-02.html</link>
+	<description>
+		<![CDATA[
+		<p>
+						<em>Pirulo de tapa</em><br />
+															    &quot;En Quiero y puedo, De la Sota argumenta por qu&eacute; opina que Sergio Massa es un &lsquo;calculador&rsquo; dispuesto a quedar bien con Dios y con el Diablo.&quot; La frase no es una cr&iacute;tica al reci&eacute;n presentado acuerdo entre Massa y De la Sota para competir en las PASO de agosto, sino que forma parte de los anuncios del libro que el gobernador cordob&eacute;s...
+									</p>
+						]]>
+	</description>
+		<pubDate>Sat, 02 May 2015 04:00:00 -0300</pubDate>
+	<guid>http://www.pagina12.com.ar/diario/pirulo/30-271830-2015-05-02.html</guid>
+</item>
+
+
+
+</channel>
+</rss>
+
+

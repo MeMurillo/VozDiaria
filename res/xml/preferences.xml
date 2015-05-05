@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+        android:title="@string/voz_velocidad"
+        android:key="pref_key_config_voz">
+	    <ListPreference
+	        android:dependency="pref_key_config_voz"
+	        android:key="pref_key_velocidad_voz"
+	        android:title="@string/voz_velocidad"
+	        android:dialogTitle="@string/voz_velocidad"
+	        android:entries="@array/opciones_velocidad"
+	        android:entryValues="@array/opciones_velocidad"
+	        android:defaultValue="@string/voz_velocidad_media" />
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:title="@string/diarios_repr_gral"
+        android:key="pref_key_diarios">
+	    <CheckBoxPreference
+	        android:key="pref_key_reprod_ambito"
+	        android:title="@string/ambito"
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
+	        android:key="pref_key_reprod_bae"
+	        android:title="@string/bae"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_clarin"
+	        android:title="@string/clarin"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_diario26"
+	        android:title="@string/diario26"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_elcronista"
+	        android:title="@string/elcronista"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_elgrafico"
+	        android:title="@string/elgrafico"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_litoral"
+	        android:title="@string/ellitoral"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_foxsports"
+	        android:title="@string/foxsports"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_infobae"
+	        android:title="@string/infobae"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_infonews"
+	        android:title="@string/infonews"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_lacapital"
+	        android:title="@string/lacapital"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_izquierda"
+	        android:title="@string/laizquierda"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_lanacion"
+	        android:title="@string/lanacion"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_laprensa"
+	        android:title="@string/laprensa"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_larazon"
+	        android:title="@string/larazon"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_lavoz"
+	        android:title="@string/lavoz"
+	        android:defaultValue="true" />
+        <!-- 
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_ole"
+	        android:title="@string/ole"
+	        android:defaultValue="true" />
+	    -->
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_pagina12"
+	        android:title="@string/pagina12"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_perfil"
+	        android:title="@string/perfil"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_telam"
+	        android:title="@string/telam"
+	        android:defaultValue="true" />
+	</PreferenceCategory>
+	
+    <PreferenceCategory 
+        android:title="@string/config_cantidad_noticias"
+        android:key="pref_key_cantidad_noticias">
+	    <ListPreference
+	        android:dependency="pref_key_cantidad_noticias"
+	        android:key="pref_key_cant_noticias"
+	        android:title="@string/config_cantidad_noticias"
+	        android:dialogTitle="@string/config_cantidad_noticias"
+	        android:entries="@array/opciones_cant_noticias"
+	        android:entryValues="@array/opciones_cant_noticias"
+	        android:defaultValue="@string/cant_noticias_10" />
+    </PreferenceCategory>
+	
+</PreferenceScreen>

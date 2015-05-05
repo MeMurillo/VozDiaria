@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Voz Diaria</string>
+    <string name="confirmacion_salir">¿Está seguro que desea salir?</string>
+    <string name="mensaje_sin_conexion_internet">Sin conexión a Internet. Chequee su conexión y vuelva a intentar.</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="iniciando_lectura">Iniciando lectura...</string>
+    <string name="gracias_voz_diaria">Gracias por escuchar Voz Diaria.</string>
+    <string name="compartir_asunto">Te recomiendo Voz Diaria</string>
+    <string name="compartir_titulolista">Compartir</string>
+    <string name="no_hay_noticias_ahora">No hay noticias en este momento.</string>
+    
+    <!-- MENU CONFIGURACIÓN -->
+    <string name="voz_velocidad">Velocidad de la voz</string>
+    <string name="voz_velocidad_lenta">Lenta</string>
+    <string name="voz_velocidad_media">Media</string>
+    <string name="voz_velocidad_rapida">Rápida</string>
+    <string-array name="opciones_velocidad">
+        <item>Lenta</item>
+        <item>Media</item>
+        <item>Rápida</item>
+    </string-array>
+    <string name="diarios_repr_gral">Diarios incluidos en lectura general</string>
+    <string name="ambito">Ámbito</string>
+    <string name="bae">BAE</string>
+    <string name="clarin">Clarín</string>
+    <string name="pagina12">Página 12</string>
+    <string name="telam">Télam</string>
+    <string name="ellitoral">El Litoral</string>
+    <string name="lanacion">La Nación</string>
+    <string name="laizquierda">La Izquierda</string>
+    <string name="laprensa">La Prensa</string>
+    <string name="lavoz">La Voz</string>
+    <string name="infonews">InfoNews</string>
+    <string name="infobae">Infobae</string>
+    <string name="elcronista">El Cronista</string>
+    <string name="perfil">Perfil</string>
+    <string name="lacapital">La Capital</string>
+    <string name="larazon">La Razón</string>
+    <string name="diario26">Diario 26</string>
+    <string name="foxsports">Fox Sports</string>
+    <string name="elgrafico">El Gráfico</string>
+    <string name="ole">Olé</string>
+    
+    <string name="config_cantidad_noticias">Cantidad de Noticias</string>
+    <string-array name="opciones_cant_noticias">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string name="cant_noticias_10">10</string>
+    
+    <!-- MENU DESLIZABLE -->
+    <string-array name="opciones_menu">
+        <item>Configuraciones</item>
+        <item>Compartir</item>
+        <item>Acerca de</item>
+    </string-array>
+    <string name="abrir_drawer">Abrir Menú Deslizante</string>
+    <string name="cerrar_drawer">Cerrar Menú Deslizante</string>
+    
+    <!-- VARIABLES CLAVES MEMORIA PERMANENTE -->
+    <string name="prefs_claves">prefsclaves</string>
+    <string name="key_voz_femenina">keyvozfem</string>
+    
+    <!-- VARIABLES DE PARÁMETRO ENTRE ACTIVITIES -->
+    <string name="noticias_array">notiarray</string>
+    <string name="diario_selec">diarioselec</string>
+    
+</resources>
