@@ -57,10 +57,12 @@ public class PrincipalActivity extends BaseActivity implements NoticiasListener,
 		listaDiarios = (ListView)findViewById(R.id.listaDiarios);
 		
 		ArrayList<Diario> arrayDiarios = new ArrayList<Diario>();
+		arrayDiarios.add(new Diario(Constantes.ADNRAFAELA, R.drawable.logo_adnrafaela));
 		arrayDiarios.add(new Diario(Constantes.AMBITO, R.drawable.logo_ambito));
 		arrayDiarios.add(new Diario(Constantes.BAE, R.drawable.logo_bae));
 		arrayDiarios.add(new Diario(Constantes.CLARIN, R.drawable.logo_clarin));
 		arrayDiarios.add(new Diario(Constantes.DIARIO26, R.drawable.logo_diario26));
+		arrayDiarios.add(new Diario(Constantes.ELCOLONOOESTE, R.drawable.logo_colonooeste));
 		arrayDiarios.add(new Diario(Constantes.ELCRONISTA, R.drawable.logo_elcronista));
 		arrayDiarios.add(new Diario(Constantes.ELGRAFICO, R.drawable.logo_elgrafico));
 		arrayDiarios.add(new Diario(Constantes.ELLITORAL, R.drawable.logo_ellitoral));
@@ -70,19 +72,19 @@ public class PrincipalActivity extends BaseActivity implements NoticiasListener,
 		arrayDiarios.add(new Diario(Constantes.LACAPITAL, R.drawable.logo_lacapital));
 		arrayDiarios.add(new Diario(Constantes.LAIZQUIERDA, R.drawable.logo_izquierda));
 		arrayDiarios.add(new Diario(Constantes.LANACION, R.drawable.logo_lanacion));
+		arrayDiarios.add(new Diario(Constantes.LAOPINIONRAFAELA, R.drawable.logo_laopinionrafaela));
 		arrayDiarios.add(new Diario(Constantes.LAPRENSA, R.drawable.logo_laprensa));
 		arrayDiarios.add(new Diario(Constantes.LARAZON, R.drawable.logo_larazon));
 		arrayDiarios.add(new Diario(Constantes.LAVOZ, R.drawable.logo_lavoz));
-		//arrayDiarios.add(new Diario(Constantes.OLE, R.drawable.logo_ole));
 		arrayDiarios.add(new Diario(Constantes.PAGINA12, R.drawable.logo_pagina12));
 		arrayDiarios.add(new Diario(Constantes.PERFIL, R.drawable.logo_perfil));
+		arrayDiarios.add(new Diario(Constantes.R24N, R.drawable.logo_r24n));
 		arrayDiarios.add(new Diario(Constantes.TELAM, R.drawable.logo_telam));
 		
 		diariosAdapter = new DiariosAdapter(this, R.layout.lista_diarios_item,
 				arrayDiarios);
 		
 		listaDiarios.setOnItemClickListener(new OnItemClickListener() {
-			
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
@@ -169,7 +171,6 @@ public class PrincipalActivity extends BaseActivity implements NoticiasListener,
 	protected void playButtonClick() {
 		if (!isPlaying){
 			Toast.makeText(getApplicationContext(), getString(R.string.iniciando_lectura), Toast.LENGTH_LONG).show();
-			
 			NoticiasWS notiTodasWS = new NoticiasWS();
 			notiTodasWS.getNoticias(null, this, this);
 		}

@@ -23,6 +23,7 @@
         <item>Rápida</item>
     </string-array>
     <string name="diarios_repr_gral">Diarios incluidos en lectura general</string>
+    <string name="adnrafaela">ADN Rafaela</string>
     <string name="ambito">Ámbito</string>
     <string name="bae">BAE</string>
     <string name="clarin">Clarín</string>
@@ -31,6 +32,7 @@
     <string name="ellitoral">El Litoral</string>
     <string name="lanacion">La Nación</string>
     <string name="laizquierda">La Izquierda</string>
+    <string name="laopinionrafaela">La Opinión Rafaela</string>
     <string name="laprensa">La Prensa</string>
     <string name="lavoz">La Voz</string>
     <string name="infonews">InfoNews</string>
@@ -42,7 +44,8 @@
     <string name="diario26">Diario 26</string>
     <string name="foxsports">Fox Sports</string>
     <string name="elgrafico">El Gráfico</string>
-    <string name="ole">Olé</string>
+    <string name="r24n">R24N</string>
+    <string name="colonooeste">El Colono del Oeste</string>
     
     <string name="config_cantidad_noticias">Cantidad de Noticias</string>
     <string-array name="opciones_cant_noticias">

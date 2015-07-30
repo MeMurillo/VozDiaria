@@ -26,13 +26,15 @@ public class Constantes {
 	public final static String DIARIO26 = "Diario 26";
 	public final static String FOXSPORTS = "Fox Sports";
 	public final static String ELGRAFICO = "El Gráfico";
-	public final static String OLE = "Olé";
+	public final static String ADNRAFAELA = "ADN Rafaela";
+	public final static String LAOPINIONRAFAELA = "La Opinión Rafaela";
+	public final static String R24N = "R24N";
+	public final static String ELCOLONOOESTE = "El Colono del Oeste";
 	
-
 	public final static String URL_AMBITO = "http://www.ambito.com/rss/noticiasp.asp";
 	public final static String URL_PAGINA12 = "http://www.pagina12.com.ar/diario/rss/principal.xml";
 	public final static String URL_CLARIN = "http://www.clarin.com/rss/";
-	public final static String URL_ELCRONISTA = "http://web3.cronista.com/rss.html";
+	public final static String URL_ELCRONISTA = "http://www.cronista.com/rss.html";
 	public final static String URL_ELLITORAL = "http://www.ellitoral.com/rss/um.xml";
 	public final static String URL_LANACION = "http://contenidos.lanacion.com.ar/herramientas/rss/origen=1";
 	public final static String URL_LAIZQUIERDA = "http://www.laizquierdadiario.com/spip.php?page=backend";
@@ -46,9 +48,12 @@ public class Constantes {
 	public final static String URL_LACAPITAL = "http://www.lacapital.com.ar/rss/home.xml";
 	public final static String URL_LARAZON = "http://www.larazon.com.ar/rss/";
 	public final static String URL_DIARIO26 = "http://www.diario26.com/xml/diario26_index_rss.xml";
-	public final static String URL_OLE = "http://www.ole.com.ar/rss/";
 	public final static String URL_FOXSPORTS = "http://www.foxsportsla.com/feeds/noticias/";
 	public final static String URL_ELGRAFICO = "http://www.elgrafico.com.ar/rss/elgrafico.xml";
+	public final static String URL_ADNRAFAELA = "http://adn979.com/rss/noticias.xml";
+	public final static String URL_LAOPINIONRAFAELA = "http://diariolaopinion.com.ar/rss/noticias.xml";
+	public final static String URL_R24N = "http://r24n.com.ar/rss/noticias.xml";
+	public final static String URL_COLONOOESTE = "http://www.elcolonodeloeste.com.ar/rss/noticias.xml";
 	
 	public final static String URL_AMBITO_WEB = "http://www.ambito.com";
 	public final static String URL_PAGINA12_WEB = "http://www.pagina12.com.ar";
@@ -67,7 +72,10 @@ public class Constantes {
 	public final static String URL_LACAPITAL_WEB = "http://www.lacapital.com.ar";
 	public final static String URL_LARAZON_WEB = "http://www.larazon.com.ar";
 	public final static String URL_DIARIO26_WEB = "http://www.diario26.com";
-	public final static String URL_OLE_WEB = "http://www.ole.com.ar";
 	public final static String URL_FOXSPORTS_WEB = "http://www.foxsportsla.com";
 	public final static String URL_ELGRAFICO_WEB = "http://www.elgrafico.com.ar";
+	public final static String URL_ADNRAFAELA_WEB = "http://www.adn979.com";
+	public final static String URL_LAOPINION_WEB = "http://www.diariolaopinion.com.ar/";
+	public final static String URL_R24N_WEB = "http://www.r24n.com.ar/";
+	public final static String URL_COLONOOESTE_WEB = "http://www.elcolonodeloeste.com.ar/";
 }

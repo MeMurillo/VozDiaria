@@ -6,8 +6,10 @@ import java.util.ArrayList;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.net.http.AndroidHttpClient;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
+import android.util.Log;
 
 import com.memurillo.vozdiaria.entidades.ErrorVozDiaria;
 import com.memurillo.vozdiaria.entidades.Noticia;
@@ -38,6 +40,7 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			URL url = null;
 			SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
 			String cantNoticiasConfigurada = sharedPref.getString("pref_key_cant_noticias", Constantes.CANTIDAD_NOTICIAS_XDEFECTO);
+			boolean confADNRafaela = sharedPref.getBoolean("pref_key_reprod_adnrafaela", true);
 			boolean confAmbito = sharedPref.getBoolean("pref_key_reprod_ambito", true);
 			boolean confBAE = sharedPref.getBoolean("pref_key_reprod_bae", true);
 			boolean confClarin = sharedPref.getBoolean("pref_key_reprod_clarin", true);
@@ -57,16 +60,26 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			boolean confLaCapital = sharedPref.getBoolean("pref_key_reprod_lacapital", true);
 			boolean confFoxSports = sharedPref.getBoolean("pref_key_reprod_foxsports", true);
 			boolean confElGrafico = sharedPref.getBoolean("pref_key_reprod_elgrafico", true);
-			boolean confOle = sharedPref.getBoolean("pref_key_reprod_ole", true);
+			boolean confLaOpinionRafaela = sharedPref.getBoolean("pref_key_reprod_laopinionrafaela", true);
+			boolean confR24N = sharedPref.getBoolean("pref_key_reprod_r24n", true);
+			boolean confElColonoOeste = sharedPref.getBoolean("pref_key_reprod_colonooeste", true);
 			if (nombreDiarioSel == null){  //Todas las noticias (ver que diarios selec en configuraciones)
+				if (confADNRafaela){
+					xmlInterf = new XMLParserADNRafaela(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_ADNRAFAELA);
+			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+					conn.setReadTimeout(Constantes.READ_TIMEOUT);
+				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
+				    conn.connect();
+				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
+				    conn.disconnect();
+				}
 				if (confAmbito){
 					xmlInterf = new XMLParserAmbito(cantNoticiasConfigurada);
 			    	url = new URL(Constantes.URL_AMBITO);
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -77,8 +90,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -89,8 +100,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -101,8 +110,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -113,8 +120,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -125,8 +130,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -137,8 +140,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -149,8 +150,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -161,8 +160,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -173,8 +170,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -185,8 +180,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -197,8 +190,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -209,8 +200,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -221,8 +210,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -233,8 +220,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -245,20 +230,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
-				    conn.connect();
-				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
-				    conn.disconnect();
-				}
-				if (confOle){
-					xmlInterf = new XMLParserOle(cantNoticiasConfigurada);
-			    	url = new URL(Constantes.URL_OLE);
-			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-					conn.setReadTimeout(Constantes.READ_TIMEOUT);
-				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -269,8 +240,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -281,8 +250,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -293,8 +260,36 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.setRequestMethod("GET");
-				    conn.setDoInput(true);
+				    conn.connect();
+				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
+				    conn.disconnect();
+				}
+				if (confLaOpinionRafaela){
+					xmlInterf = new XMLParserLaOpinionRafaela(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_LAOPINIONRAFAELA);
+			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+					conn.setReadTimeout(Constantes.READ_TIMEOUT);
+				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
+				    conn.connect();
+				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
+				    conn.disconnect();
+				}
+				if (confR24N){
+					xmlInterf = new XMLParserR24N(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_R24N);
+			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+					conn.setReadTimeout(Constantes.READ_TIMEOUT);
+				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
+				    conn.connect();
+				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
+				    conn.disconnect();
+				}
+				if (confElColonoOeste){
+					xmlInterf = new XMLParserColonoOeste(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_COLONOOESTE);
+			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+					conn.setReadTimeout(Constantes.READ_TIMEOUT);
+				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
 				    conn.connect();
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
@@ -373,20 +368,30 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    	xmlInterf = new XMLParserElGrafico(cantNoticiasConfigurada);
 			    	url = new URL(Constantes.URL_ELGRAFICO);
 			    }
-			    else if (nombreDiarioSel.toLowerCase().contains(Constantes.OLE.toLowerCase())){
-			    	xmlInterf = new XMLParserOle(cantNoticiasConfigurada);
-			    	url = new URL(Constantes.URL_OLE);
+			    else if (nombreDiarioSel.toLowerCase().contains(Constantes.ADNRAFAELA.toLowerCase())){
+			    	xmlInterf = new XMLParserADNRafaela(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_ADNRAFAELA);
+			    }
+			    else if (nombreDiarioSel.toLowerCase().contains(Constantes.LAOPINIONRAFAELA.toLowerCase())){
+			    	xmlInterf = new XMLParserLaOpinionRafaela(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_LAOPINIONRAFAELA);
+			    }
+			    else if (nombreDiarioSel.toLowerCase().contains(Constantes.R24N.toLowerCase())){
+			    	xmlInterf = new XMLParserR24N(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_R24N);
+			    }
+			    else if (nombreDiarioSel.toLowerCase().contains(Constantes.ELCOLONOOESTE.toLowerCase())){
+			    	xmlInterf = new XMLParserColonoOeste(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_COLONOOESTE);
 			    }
 			    else{
 			    	xmlInterf = new XMLParserLaIzquierda(cantNoticiasConfigurada);
 			    	url = new URL(Constantes.URL_LAIZQUIERDA);
 			    }
-				
+
 				HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 				conn.setReadTimeout(Constantes.READ_TIMEOUT);
-			    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-			    conn.setRequestMethod("GET");
-			    conn.setDoInput(true);
+				conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
 				conn.connect();
 			    arrayResp = xmlInterf.parse(conn.getInputStream());
 			    conn.disconnect();

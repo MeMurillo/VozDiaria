@@ -64,10 +64,6 @@ public class NoticiasActivity extends BaseActivity implements OnInitListener, On
 			botonLogoDiario.setImageResource(R.drawable.logo_detalle_lacapital);
 			botonLogoDiario.setTag(Constantes.URL_LACAPITAL_WEB);
 		}
-		else if (nombreDiarioSel.equalsIgnoreCase(Constantes.OLE)){
-			botonLogoDiario.setImageResource(R.drawable.logo_detalle_ole);
-			botonLogoDiario.setTag(Constantes.URL_OLE_WEB);
-		}
 		else if (nombreDiarioSel.equalsIgnoreCase(Constantes.ELGRAFICO)){
 			botonLogoDiario.setImageResource(R.drawable.logo_detalle_elgrafico);
 			botonLogoDiario.setTag(Constantes.URL_ELGRAFICO_WEB);
@@ -127,6 +123,22 @@ public class NoticiasActivity extends BaseActivity implements OnInitListener, On
 		else if (nombreDiarioSel.equalsIgnoreCase(Constantes.PERFIL)){
 			botonLogoDiario.setImageResource(R.drawable.logo_detalle_perfil);
 			botonLogoDiario.setTag(Constantes.URL_PERFIL_WEB);
+		}
+		else if (nombreDiarioSel.equalsIgnoreCase(Constantes.ADNRAFAELA)){
+			botonLogoDiario.setImageResource(R.drawable.logo_detalle_adnrafaela);
+			botonLogoDiario.setTag(Constantes.URL_ADNRAFAELA_WEB);
+		}
+		else if (nombreDiarioSel.equalsIgnoreCase(Constantes.LAOPINIONRAFAELA)){
+			botonLogoDiario.setImageResource(R.drawable.logo_detalle_laopinionrafaela);
+			botonLogoDiario.setTag(Constantes.URL_LAOPINION_WEB);
+		}
+		else if (nombreDiarioSel.equalsIgnoreCase(Constantes.R24N)){
+			botonLogoDiario.setImageResource(R.drawable.logo_detalle_r24n);
+			botonLogoDiario.setTag(Constantes.URL_R24N_WEB);
+		}
+		else if (nombreDiarioSel.equalsIgnoreCase(Constantes.ELCOLONOOESTE)){
+			botonLogoDiario.setImageResource(R.drawable.logo_detalle_colonooeste);
+			botonLogoDiario.setTag(Constantes.URL_COLONOOESTE_WEB);
 		}
 		else{
 			botonLogoDiario.setImageResource(R.drawable.logo_detalle_laizquierda);

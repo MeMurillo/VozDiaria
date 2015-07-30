@@ -16,6 +16,10 @@
         android:title="@string/diarios_repr_gral"
         android:key="pref_key_diarios">
 	    <CheckBoxPreference
+	        android:key="pref_key_reprod_adnrafaela"
+	        android:title="@string/adnrafaela"
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
 	        android:key="pref_key_reprod_ambito"
 	        android:title="@string/ambito"
 	        android:defaultValue="true" />
@@ -30,6 +34,10 @@
         <CheckBoxPreference
 	        android:key="pref_key_reprod_diario26"
 	        android:title="@string/diario26"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_colonooeste"
+	        android:title="@string/colonooeste"
 	        android:defaultValue="true" />
         <CheckBoxPreference
 	        android:key="pref_key_reprod_elcronista"
@@ -68,6 +76,10 @@
 	        android:title="@string/lanacion"
 	        android:defaultValue="true" />
         <CheckBoxPreference
+	        android:key="pref_key_reprod_laopinionrafaela"
+	        android:title="@string/laopinionrafaela"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
 	        android:key="pref_key_reprod_laprensa"
 	        android:title="@string/laprensa"
 	        android:defaultValue="true" />
@@ -79,12 +91,6 @@
 	        android:key="pref_key_reprod_lavoz"
 	        android:title="@string/lavoz"
 	        android:defaultValue="true" />
-        <!-- 
-        <CheckBoxPreference
-	        android:key="pref_key_reprod_ole"
-	        android:title="@string/ole"
-	        android:defaultValue="true" />
-	    -->
         <CheckBoxPreference
 	        android:key="pref_key_reprod_pagina12"
 	        android:title="@string/pagina12"
@@ -94,9 +100,14 @@
 	        android:title="@string/perfil"
 	        android:defaultValue="true" />
         <CheckBoxPreference
+	        android:key="pref_key_reprod_r24n"
+	        android:title="@string/r24n"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
 	        android:key="pref_key_reprod_telam"
 	        android:title="@string/telam"
 	        android:defaultValue="true" />
+        
 	</PreferenceCategory>
 	
     <PreferenceCategory 
