@@ -30,10 +30,13 @@ public class Constantes {
 	public final static String LAOPINIONRAFAELA = "La Opinión Rafaela";
 	public final static String R24N = "R24N";
 	public final static String ELCOLONOOESTE = "El Colono del Oeste";
+	public final static String SUNCHALESHOY = "Sunchales Hoy";
+	public final static String ELECODESUNCHALES = "El Eco de Sunchales";
+	public final static String ELPERIODICO = "El Periódico de San Francisco";
 	
 	public final static String URL_AMBITO = "http://www.ambito.com/rss/noticiasp.asp";
 	public final static String URL_PAGINA12 = "http://www.pagina12.com.ar/diario/rss/principal.xml";
-	public final static String URL_CLARIN = "http://www.clarin.com/rss/";
+	public final static String URL_CLARIN = "http://www.clarin.com/rss/lo-ultimo/";
 	public final static String URL_ELCRONISTA = "http://www.cronista.com/rss.html";
 	public final static String URL_ELLITORAL = "http://www.ellitoral.com/rss/um.xml";
 	public final static String URL_LANACION = "http://contenidos.lanacion.com.ar/herramientas/rss/origen=1";
@@ -54,6 +57,9 @@ public class Constantes {
 	public final static String URL_LAOPINIONRAFAELA = "http://diariolaopinion.com.ar/rss/noticias.xml";
 	public final static String URL_R24N = "http://r24n.com.ar/rss/noticias.xml";
 	public final static String URL_COLONOOESTE = "http://www.elcolonodeloeste.com.ar/rss/noticias.xml";
+	public final static String URL_SUNCHALESHOY = "http://feeds.feedburner.com/sunchaleshoy-rss?format=xml";
+	public final static String URL_ECOSUNCHALES = "http://elecodesunchales.com.ar/rss/general.xml";
+	public final static String URL_PERIODICO_SANFCO = "http://www.el-periodico.com.ar/rss";
 	
 	public final static String URL_AMBITO_WEB = "http://www.ambito.com";
 	public final static String URL_PAGINA12_WEB = "http://www.pagina12.com.ar";
@@ -75,7 +81,10 @@ public class Constantes {
 	public final static String URL_FOXSPORTS_WEB = "http://www.foxsportsla.com";
 	public final static String URL_ELGRAFICO_WEB = "http://www.elgrafico.com.ar";
 	public final static String URL_ADNRAFAELA_WEB = "http://www.adn979.com";
-	public final static String URL_LAOPINION_WEB = "http://www.diariolaopinion.com.ar/";
-	public final static String URL_R24N_WEB = "http://www.r24n.com.ar/";
-	public final static String URL_COLONOOESTE_WEB = "http://www.elcolonodeloeste.com.ar/";
+	public final static String URL_LAOPINION_WEB = "http://www.diariolaopinion.com.ar";
+	public final static String URL_R24N_WEB = "http://www.r24n.com.ar";
+	public final static String URL_COLONOOESTE_WEB = "http://www.elcolonodeloeste.com.ar";
+	public final static String URL_SUNCHALESHOY_WEB = "http://www.sunchaleshoy.com.ar";
+	public final static String URL_ECOSUNCHALES_WEB = "http://www.elecodesunchales.com.ar";
+	public final static String URL_ELPERIODICO_SANFCO_WEB = "http://www.el-periodico.com.ar";
 }

@@ -64,8 +64,10 @@ public class PrincipalActivity extends BaseActivity implements NoticiasListener,
 		arrayDiarios.add(new Diario(Constantes.DIARIO26, R.drawable.logo_diario26));
 		arrayDiarios.add(new Diario(Constantes.ELCOLONOOESTE, R.drawable.logo_colonooeste));
 		arrayDiarios.add(new Diario(Constantes.ELCRONISTA, R.drawable.logo_elcronista));
+		arrayDiarios.add(new Diario(Constantes.ELECODESUNCHALES, R.drawable.logo_ecosunchales));
 		arrayDiarios.add(new Diario(Constantes.ELGRAFICO, R.drawable.logo_elgrafico));
 		arrayDiarios.add(new Diario(Constantes.ELLITORAL, R.drawable.logo_ellitoral));
+		arrayDiarios.add(new Diario(Constantes.ELPERIODICO, R.drawable.logo_elperiodico));
 		arrayDiarios.add(new Diario(Constantes.FOXSPORTS, R.drawable.logo_foxsports));
 		arrayDiarios.add(new Diario(Constantes.INFONEWS, R.drawable.logo_infonews));
 		arrayDiarios.add(new Diario(Constantes.INFOBAE, R.drawable.logo_infobae));
@@ -79,6 +81,7 @@ public class PrincipalActivity extends BaseActivity implements NoticiasListener,
 		arrayDiarios.add(new Diario(Constantes.PAGINA12, R.drawable.logo_pagina12));
 		arrayDiarios.add(new Diario(Constantes.PERFIL, R.drawable.logo_perfil));
 		arrayDiarios.add(new Diario(Constantes.R24N, R.drawable.logo_r24n));
+		arrayDiarios.add(new Diario(Constantes.SUNCHALESHOY, R.drawable.logo_sunchaleshoy));
 		arrayDiarios.add(new Diario(Constantes.TELAM, R.drawable.logo_telam));
 		
 		diariosAdapter = new DiariosAdapter(this, R.layout.lista_diarios_item,

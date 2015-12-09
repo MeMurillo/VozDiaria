@@ -29,6 +29,7 @@
     <string name="clarin">Clarín</string>
     <string name="pagina12">Página 12</string>
     <string name="telam">Télam</string>
+    <string name="elecosunchales">El Eco de Sunchales</string>
     <string name="ellitoral">El Litoral</string>
     <string name="lanacion">La Nación</string>
     <string name="laizquierda">La Izquierda</string>
@@ -46,6 +47,8 @@
     <string name="elgrafico">El Gráfico</string>
     <string name="r24n">R24N</string>
     <string name="colonooeste">El Colono del Oeste</string>
+    <string name="sunchaleshoy">Sunchales Hoy</string>
+    <string name="elperiodico">El Periódico de San Fco.</string>
     
     <string name="config_cantidad_noticias">Cantidad de Noticias</string>
     <string-array name="opciones_cant_noticias">

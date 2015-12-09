@@ -44,8 +44,16 @@
 	        android:title="@string/elcronista"
 	        android:defaultValue="true" />
         <CheckBoxPreference
+	        android:key="pref_key_reprod_elecosunchales"
+	        android:title="@string/elecosunchales"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
 	        android:key="pref_key_reprod_elgrafico"
 	        android:title="@string/elgrafico"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_elperiodico"
+	        android:title="@string/elperiodico"
 	        android:defaultValue="true" />
         <CheckBoxPreference
 	        android:key="pref_key_reprod_litoral"
@@ -102,6 +110,10 @@
         <CheckBoxPreference
 	        android:key="pref_key_reprod_r24n"
 	        android:title="@string/r24n"
+	        android:defaultValue="true" />
+        <CheckBoxPreference
+	        android:key="pref_key_reprod_sunchaleshoy"
+	        android:title="@string/sunchaleshoy"
 	        android:defaultValue="true" />
         <CheckBoxPreference
 	        android:key="pref_key_reprod_telam"

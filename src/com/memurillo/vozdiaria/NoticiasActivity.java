@@ -140,6 +140,18 @@ public class NoticiasActivity extends BaseActivity implements OnInitListener, On
 			botonLogoDiario.setImageResource(R.drawable.logo_detalle_colonooeste);
 			botonLogoDiario.setTag(Constantes.URL_COLONOOESTE_WEB);
 		}
+		else if (nombreDiarioSel.equalsIgnoreCase(Constantes.ELECODESUNCHALES)){
+			botonLogoDiario.setImageResource(R.drawable.logo_detalle_ecosunchales);
+			botonLogoDiario.setTag(Constantes.URL_ECOSUNCHALES_WEB);
+		}
+		else if (nombreDiarioSel.equalsIgnoreCase(Constantes.SUNCHALESHOY)){
+			botonLogoDiario.setImageResource(R.drawable.logo_detalle_sunchaleshoy);
+			botonLogoDiario.setTag(Constantes.URL_SUNCHALESHOY_WEB);
+		}
+		else if (nombreDiarioSel.equalsIgnoreCase(Constantes.ELPERIODICO)){
+			botonLogoDiario.setImageResource(R.drawable.logo_detalle_elperiodico);
+			botonLogoDiario.setTag(Constantes.URL_ELPERIODICO_SANFCO_WEB);
+		}
 		else{
 			botonLogoDiario.setImageResource(R.drawable.logo_detalle_laizquierda);
 			botonLogoDiario.setTag(Constantes.URL_LAIZQUIERDA_WEB);

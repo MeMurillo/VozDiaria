@@ -6,10 +6,8 @@ import java.util.ArrayList;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.net.http.AndroidHttpClient;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
-import android.util.Log;
 
 import com.memurillo.vozdiaria.entidades.ErrorVozDiaria;
 import com.memurillo.vozdiaria.entidades.Noticia;
@@ -63,6 +61,9 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			boolean confLaOpinionRafaela = sharedPref.getBoolean("pref_key_reprod_laopinionrafaela", true);
 			boolean confR24N = sharedPref.getBoolean("pref_key_reprod_r24n", true);
 			boolean confElColonoOeste = sharedPref.getBoolean("pref_key_reprod_colonooeste", true);
+			boolean confElEcoSunchales = sharedPref.getBoolean("pref_key_reprod_elecosunchales", true);
+			boolean confSunchalesHoy = sharedPref.getBoolean("pref_key_reprod_sunchaleshoy", true);
+			boolean confElPeriodico = sharedPref.getBoolean("pref_key_reprod_elperiodico", true);
 			if (nombreDiarioSel == null){  //Todas las noticias (ver que diarios selec en configuraciones)
 				if (confADNRafaela){
 					xmlInterf = new XMLParserADNRafaela(cantNoticiasConfigurada);
@@ -104,6 +105,16 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
 				}
+				if (confElColonoOeste){
+					xmlInterf = new XMLParserColonoOeste(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_COLONOOESTE);
+			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+					conn.setReadTimeout(Constantes.READ_TIMEOUT);
+				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
+				    conn.connect();
+				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
+				    conn.disconnect();
+				}
 				if (confDiario26){
 					xmlInterf = new XMLParserDiario26(cantNoticiasConfigurada);
 			    	url = new URL(Constantes.URL_DIARIO26);
@@ -124,6 +135,16 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
 				}
+				if (confElEcoSunchales){
+					xmlInterf = new XMLParserEcoSunchales(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_ECOSUNCHALES);
+			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+					conn.setReadTimeout(Constantes.READ_TIMEOUT);
+				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
+				    conn.connect();
+				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
+				    conn.disconnect();
+				}
 				if (confElGrafico){
 					xmlInterf = new XMLParserElGrafico(cantNoticiasConfigurada);
 			    	url = new URL(Constantes.URL_ELGRAFICO);
@@ -137,6 +158,16 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 				if (confElLitoral){
 					xmlInterf = new XMLParserElLitoral(cantNoticiasConfigurada);
 			    	url = new URL(Constantes.URL_ELLITORAL);
+			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+					conn.setReadTimeout(Constantes.READ_TIMEOUT);
+				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
+				    conn.connect();
+				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
+				    conn.disconnect();
+				}
+				if (confElPeriodico){
+					xmlInterf = new XMLParserPeriodicoSanFco(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_PERIODICO_SANFCO);
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
@@ -204,6 +235,16 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
 				}
+				if (confLaOpinionRafaela){
+					xmlInterf = new XMLParserLaOpinionRafaela(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_LAOPINIONRAFAELA);
+			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+					conn.setReadTimeout(Constantes.READ_TIMEOUT);
+				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
+				    conn.connect();
+				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
+				    conn.disconnect();
+				}
 				if (confLaPrensa){
 					xmlInterf = new XMLParserLaPrensa(cantNoticiasConfigurada);
 			    	url = new URL(Constantes.URL_LAPRENSA);
@@ -254,26 +295,6 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
 				}
-				if (confTelam){
-					xmlInterf = new XMLParserTelam(cantNoticiasConfigurada);
-			    	url = new URL(Constantes.URL_TELAM);
-			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-					conn.setReadTimeout(Constantes.READ_TIMEOUT);
-				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.connect();
-				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
-				    conn.disconnect();
-				}
-				if (confLaOpinionRafaela){
-					xmlInterf = new XMLParserLaOpinionRafaela(cantNoticiasConfigurada);
-			    	url = new URL(Constantes.URL_LAOPINIONRAFAELA);
-			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-					conn.setReadTimeout(Constantes.READ_TIMEOUT);
-				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
-				    conn.connect();
-				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
-				    conn.disconnect();
-				}
 				if (confR24N){
 					xmlInterf = new XMLParserR24N(cantNoticiasConfigurada);
 			    	url = new URL(Constantes.URL_R24N);
@@ -284,9 +305,19 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
 				    conn.disconnect();
 				}
-				if (confElColonoOeste){
-					xmlInterf = new XMLParserColonoOeste(cantNoticiasConfigurada);
-			    	url = new URL(Constantes.URL_COLONOOESTE);
+				if (confSunchalesHoy){
+					xmlInterf = new XMLParserSunchalesHoy(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_SUNCHALESHOY);
+			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+					conn.setReadTimeout(Constantes.READ_TIMEOUT);
+				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
+				    conn.connect();
+				    arrayResp.addAll(xmlInterf.parse(conn.getInputStream()));
+				    conn.disconnect();
+				}
+				if (confTelam){
+					xmlInterf = new XMLParserTelam(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_TELAM);
 			    	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.setReadTimeout(Constantes.READ_TIMEOUT);
 				    conn.setConnectTimeout(Constantes.CONNECT_TIMEOUT);
@@ -383,6 +414,18 @@ public class HttpRequest extends AsyncTask<Void, Void, ArrayList<Noticia>> {
 			    else if (nombreDiarioSel.toLowerCase().contains(Constantes.ELCOLONOOESTE.toLowerCase())){
 			    	xmlInterf = new XMLParserColonoOeste(cantNoticiasConfigurada);
 			    	url = new URL(Constantes.URL_COLONOOESTE);
+			    }
+			    else if (nombreDiarioSel.toLowerCase().contains(Constantes.ELECODESUNCHALES.toLowerCase())){
+			    	xmlInterf = new XMLParserEcoSunchales(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_ECOSUNCHALES);
+			    }
+			    else if (nombreDiarioSel.toLowerCase().contains(Constantes.SUNCHALESHOY.toLowerCase())){
+			    	xmlInterf = new XMLParserSunchalesHoy(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_SUNCHALESHOY);
+			    }
+			    else if (nombreDiarioSel.toLowerCase().contains(Constantes.ELPERIODICO.toLowerCase())){
+			    	xmlInterf = new XMLParserPeriodicoSanFco(cantNoticiasConfigurada);
+			    	url = new URL(Constantes.URL_PERIODICO_SANFCO);
 			    }
 			    else{
 			    	xmlInterf = new XMLParserLaIzquierda(cantNoticiasConfigurada);
